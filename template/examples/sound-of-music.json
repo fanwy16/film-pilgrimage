@@ -1,0 +1,629 @@
+{
+  "_notes": "Coordinates are approximate (coordsVerified: false) — check on Google Maps. visited = has a merged photo. Converted from docs/salzburg-sound-of-music.md.",
+  "id": "sound-of-music",
+  "title": "The Sound of Music",
+  "titleZh": "音乐之声",
+  "year": 1965,
+  "city": "Salzburg",
+  "cityZh": "萨尔茨堡",
+  "dates": "2026",
+  "structure": "route",
+  "showDay": false,
+  "days": [
+    {
+      "day": 1,
+      "date": "Day 1"
+    }
+  ],
+  "start": {
+    "name": "Hotel",
+    "nameZh": "住处",
+    "lat": 47.81,
+    "lng": 13.05,
+    "photo": {
+      "image": "raw/sound-of-music/hotel.jpg",
+      "width": 1400,
+      "height": 2364,
+      "captionZh": "起点 & 终点 · 住处",
+      "noteZh": "（可选：关于住处的一句话）",
+      "at": "end"
+    }
+  },
+  "groups": [
+    {
+      "id": "neustadt",
+      "title": "新城 · 米拉贝尔"
+    },
+    {
+      "id": "altstadt",
+      "title": "过河 · 老城"
+    },
+    {
+      "id": "moenchsberg",
+      "title": "上山 · 门希斯山"
+    },
+    {
+      "id": "lakes",
+      "title": "湖区 · 番外"
+    },
+    {
+      "id": "south",
+      "title": "城南 · 海尔布伦 / 侬山"
+    }
+  ],
+  "locations": [
+    {
+      "id": "mirabell",
+      "day": 1,
+      "order": 1,
+      "group": "neustadt",
+      "filmOrder": null,
+      "place": "Mirabellgarten",
+      "placeZh": "米拉贝尔花园",
+      "scene": "Do-Re-Mi",
+      "filmTime": null,
+      "lat": 47.8057,
+      "lng": 13.0419,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": true,
+      "shots": [
+        {
+          "image": "raw/sound-of-music/mirabell-gate.jpg",
+          "width": 2571,
+          "height": 2892,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 47.80515,
+            "lng": 13.04175,
+            "heading": 160,
+            "source": "estimated",
+            "note": "花园北端铁门，宫殿在左，朝南南东看城堡"
+          },
+          "align": "loose"
+        },
+        {
+          "image": "raw/sound-of-music/mirabell-pegasus.jpg",
+          "width": 2871,
+          "height": 3228,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 47.80528,
+            "lng": 13.04108,
+            "heading": 70,
+            "source": "estimated",
+            "note": "飞马喷泉西侧台阶（玫瑰丘），朝东北看宫殿"
+          },
+          "align": "loose"
+        },
+        {
+          "image": "raw/sound-of-music/mirabell-fountain.jpg",
+          "width": 2880,
+          "height": 3240,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 47.80432,
+            "lng": 13.04246,
+            "heading": 160,
+            "source": "estimated",
+            "note": "大喷泉北侧，朝南南东看城堡"
+          },
+          "align": "loose"
+        },
+        {
+          "image": "raw/sound-of-music/mirabell-fencers.jpg",
+          "width": 2640,
+          "height": 2970,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 47.80345,
+            "lng": 13.04235,
+            "heading": 355,
+            "source": "estimated",
+            "note": "花园南入口击剑手雕像间，朝北看宫殿"
+          },
+          "align": "match"
+        }
+      ]
+    },
+    {
+      "id": "mozartsteg",
+      "day": 1,
+      "order": 2,
+      "group": "altstadt",
+      "filmOrder": null,
+      "place": "Mozartsteg",
+      "placeZh": "莫扎特铁桥",
+      "scene": "Do-Re-Mi",
+      "filmTime": null,
+      "lat": 47.8001,
+      "lng": 13.0485,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": true,
+      "shots": [
+        {
+          "image": "raw/sound-of-music/mozartsteg.jpg",
+          "width": 2793,
+          "height": 3141,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 47.80005,
+            "lng": 13.04935,
+            "heading": 225,
+            "source": "estimated",
+            "note": "铁桥东北端，沿桥面朝西南"
+          },
+          "align": "loose"
+        }
+      ]
+    },
+    {
+      "id": "residenzplatz",
+      "day": 1,
+      "order": 3,
+      "group": "altstadt",
+      "filmOrder": null,
+      "place": "Residenzbrunnen",
+      "placeZh": "官邸广场 · 官邸喷泉",
+      "scene": "I Have Confidence",
+      "filmTime": null,
+      "lat": 47.7984,
+      "lng": 13.0469,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": true,
+      "shots": [
+        {
+          "image": "raw/sound-of-music/residenzbrunnen.jpg",
+          "width": 2067,
+          "height": 2325,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 47.79848,
+            "lng": 13.04637,
+            "heading": 90,
+            "source": "estimated",
+            "note": "喷泉西侧，朝东看新官邸"
+          },
+          "align": "match"
+        }
+      ]
+    },
+    {
+      "id": "domplatz",
+      "day": 1,
+      "order": 4,
+      "group": "altstadt",
+      "filmOrder": null,
+      "place": "Salzburger Dom",
+      "placeZh": "萨尔茨堡大教堂",
+      "scene": null,
+      "filmTime": null,
+      "lat": 47.7977,
+      "lng": 13.0465,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "pferdeschwemme",
+      "day": 1,
+      "order": 5,
+      "group": "altstadt",
+      "filmOrder": null,
+      "place": "Pferdeschwemme · Neutor",
+      "placeZh": "新门隧道口 · 洗马池",
+      "scene": "Do-Re-Mi",
+      "filmTime": null,
+      "lat": 47.7993,
+      "lng": 13.0398,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": true,
+      "shots": [
+        {
+          "image": "raw/sound-of-music/pferdeschwemme.jpg",
+          "width": 2424,
+          "height": 2727,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 47.79945,
+            "lng": 13.04088,
+            "heading": 265,
+            "source": "estimated",
+            "note": "卡拉扬广场街对面，朝西看洗马池壁画"
+          },
+          "align": "match"
+        }
+      ]
+    },
+    {
+      "id": "felsenreitschule",
+      "day": 1,
+      "order": 6,
+      "group": "altstadt",
+      "filmOrder": null,
+      "place": "Felsenreitschule",
+      "placeZh": "岩石骑术学校",
+      "scene": "Edelweiss",
+      "filmTime": null,
+      "lat": 47.7986,
+      "lng": 13.0413,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "getreidegasse",
+      "day": 1,
+      "order": 7,
+      "group": "altstadt",
+      "filmOrder": null,
+      "place": "Getreidegasse",
+      "placeZh": "粮食胡同",
+      "scene": null,
+      "filmTime": null,
+      "lat": 47.8,
+      "lng": 13.043,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "moenchsberg",
+      "day": 1,
+      "order": 8,
+      "group": "moenchsberg",
+      "filmOrder": null,
+      "place": "Mönchsberg",
+      "placeZh": "门希斯山观景台",
+      "scene": "Do-Re-Mi",
+      "filmTime": null,
+      "lat": 47.8006,
+      "lng": 13.0386,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": true,
+      "shots": [
+        {
+          "image": "raw/sound-of-music/moenchsberg.jpg",
+          "width": 2625,
+          "height": 2954,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 47.8004,
+            "lng": 13.0388,
+            "heading": 135,
+            "source": "estimated",
+            "note": "现代艺术博物馆旁观景台，朝东南看老城与城堡"
+          },
+          "align": "match"
+        }
+      ],
+      "walkNoteZh": "穿过隧道后沿地图上山"
+    },
+    {
+      "id": "wolfgangsee",
+      "day": 2,
+      "order": 1,
+      "group": "lakes",
+      "filmOrder": null,
+      "place": "Wolfgangsee",
+      "placeZh": "沃尔夫冈湖",
+      "scene": null,
+      "filmTime": null,
+      "lat": 47.7667,
+      "lng": 13.3667,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "schafberg",
+      "day": 2,
+      "order": 2,
+      "group": "lakes",
+      "filmOrder": null,
+      "place": "Schafberg",
+      "placeZh": "沙夫山",
+      "scene": null,
+      "filmTime": null,
+      "lat": 47.7764,
+      "lng": 13.4333,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "hellbrunn",
+      "day": 3,
+      "order": 1,
+      "group": "south",
+      "filmOrder": null,
+      "place": "Hellbrunn Pavilion",
+      "placeZh": "海尔布伦玻璃亭",
+      "scene": "Sixteen Going on Seventeen",
+      "filmTime": null,
+      "lat": 47.7631,
+      "lng": 13.0605,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "nonnberg",
+      "day": 3,
+      "order": 2,
+      "group": "south",
+      "filmOrder": null,
+      "place": "Stift Nonnberg",
+      "placeZh": "侬山修道院",
+      "scene": "Maria",
+      "filmTime": null,
+      "lat": 47.7958,
+      "lng": 13.0512,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "festung",
+      "day": 3,
+      "order": 3,
+      "group": "south",
+      "filmOrder": null,
+      "place": "Festung Hohensalzburg",
+      "placeZh": "霍亨萨尔茨堡城堡",
+      "scene": null,
+      "filmTime": null,
+      "lat": 47.795,
+      "lng": 13.0477,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "leopoldskron",
+      "day": null,
+      "order": null,
+      "group": null,
+      "filmOrder": null,
+      "place": "Schloss Leopoldskron",
+      "placeZh": "莱奥波尔兹克罗恩宫",
+      "scene": null,
+      "filmTime": null,
+      "lat": 47.7889,
+      "lng": 13.0367,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "frohnburg",
+      "day": null,
+      "order": null,
+      "group": null,
+      "filmOrder": null,
+      "place": "Schloss Frohnburg",
+      "placeZh": "芙蓉城堡",
+      "scene": null,
+      "filmTime": null,
+      "lat": 47.7756,
+      "lng": 13.056,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "mondsee",
+      "day": null,
+      "order": null,
+      "group": null,
+      "filmOrder": null,
+      "place": "Basilika St. Michael Mondsee",
+      "placeZh": "蒙德湖婚礼教堂",
+      "scene": null,
+      "filmTime": null,
+      "lat": 47.8564,
+      "lng": 13.3497,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "werfen",
+      "day": null,
+      "order": null,
+      "group": null,
+      "filmOrder": null,
+      "place": "Sound of Music Trail Werfen",
+      "placeZh": "韦尔芬音乐之声小径",
+      "scene": null,
+      "filmTime": null,
+      "lat": 47.4764,
+      "lng": 13.1897,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    }
+  ],
+  "montage": [
+    {
+      "image": "raw/salzburg/01-altstadt.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "chapterKicker": "彩蛋 · BONUS",
+      "chapterEn": "Day 1",
+      "chapter": "萨尔茨堡老城"
+    },
+    {
+      "image": "raw/salzburg/02-street.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1
+    },
+    {
+      "image": "raw/salzburg/03-portal-flowers.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1
+    },
+    {
+      "image": "raw/salzburg/04-traffic-lights.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1
+    },
+    {
+      "image": "raw/salzburg/05-cog-railway.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "label": "沙夫山齿轨火车 · Schafbergbahn",
+      "chapterEn": "Day 2",
+      "chapter": "圣沃尔夫冈 · 湖区"
+    },
+    {
+      "image": "raw/salzburg/06-mountains.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "label": "沙夫山 · Schafberg"
+    },
+    {
+      "image": "raw/salzburg/07-summit.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "label": "沙夫山顶 · 1783 m"
+    },
+    {
+      "image": "raw/salzburg/08-st-wolfgang.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "label": "圣沃尔夫冈 · St. Wolfgang"
+    },
+    {
+      "image": "raw/salzburg/09-sailboats.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "label": "沃尔夫冈湖 · Wolfgangsee"
+    },
+    {
+      "image": "raw/salzburg/10-wolfgangsee.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "label": "沃尔夫冈湖 · Wolfgangsee"
+    }
+  ],
+  "easterEgg": null,
+  "mapFeatures": [
+    {
+      "name": "Salzach",
+      "kind": "river",
+      "points": [
+        [
+          47.783,
+          13.064
+        ],
+        [
+          47.79,
+          13.0585
+        ],
+        [
+          47.7955,
+          13.0535
+        ],
+        [
+          47.7985,
+          13.0505
+        ],
+        [
+          47.8003,
+          13.0482
+        ],
+        [
+          47.802,
+          13.044
+        ],
+        [
+          47.8032,
+          13.0412
+        ],
+        [
+          47.806,
+          13.0383
+        ],
+        [
+          47.811,
+          13.0345
+        ],
+        [
+          47.817,
+          13.03
+        ]
+      ]
+    }
+  ],
+  "cover": {
+    "image": "raw/sound-of-music/moenchsberg.jpg",
+    "width": 2625,
+    "height": 2954,
+    "kind": "merged",
+    "splitRatio": 0.5
+  },
+  "finale": {
+    "image": "raw/sound-of-music/moenchsberg-triptych.jpg",
+    "width": 4096,
+    "height": 6916,
+    "panels": 3,
+    "titleEn": "The End",
+    "titleZh": "萨尔茨堡",
+    "subtitle": "1965 — 2026"
+  },
+  "routeBackdrop": {
+    "image": "raw/salzburg/bg-mountains.jpg",
+    "width": 1800,
+    "height": 1004
+  },
+  "music": [
+    {
+      "src": "music/do-re-mi.m4a",
+      "from": "start",
+      "to": "finale",
+      "alignSongSec": 296.2,
+      "alignAt": "to",
+      "tailSec": 0.6,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 0.6,
+      "volume": 0.9
+    },
+    {
+      "src": "music/the-sound-of-music.m4a",
+      "from": "finale",
+      "to": "end",
+      "alignSongSec": 205.6,
+      "alignAt": "to",
+      "fadeInSec": 0.8,
+      "fadeOutSec": 0.3,
+      "volume": 0.9
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "_notes": "Coordinates are approximate (coordsVerified: false). filmOrder is a best guess and filmTime is empty — both TODO. visited = has a merged photo. Converted from docs/vienna-before-sunrise.md.",
+  "id": "before-sunrise",
+  "title": "Before Sunrise",
+  "titleZh": "爱在黎明破晓前",
+  "year": 1995,
+  "city": "Vienna",
+  "cityZh": "维也纳",
+  "dates": "2026.07.11 – 07.13",
+  "structure": "route",
+  "showDay": true,
+  "days": [
+    {
+      "day": 1,
+      "date": "7/11 周六"
+    },
+    {
+      "day": 2,
+      "date": "7/12 周日"
+    }
+  ],
+  "start": {
+    "name": "Wien Hauptbahnhof",
+    "nameZh": "中央车站",
+    "lat": 48.1868,
+    "lng": 16.3772
+  },
+  "groups": [
+    {
+      "id": "west",
+      "title": "第六区 · 唱片店"
+    },
+    {
+      "id": "ring",
+      "title": "环城大道 · 夜"
+    },
+    {
+      "id": "innere-stadt",
+      "title": "老城 · 绿桥到教堂"
+    }
+  ],
+  "locations": [
+    {
+      "id": "alt-neu",
+      "day": 1,
+      "order": 1,
+      "group": "west",
+      "filmOrder": 2,
+      "place": "Alt & Neu Records",
+      "placeZh": "Alt & Neu 唱片店",
+      "scene": "试听间 · Come Here",
+      "filmTime": null,
+      "lat": 48.1997,
+      "lng": 16.3567,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": true,
+      "shots": [
+        {
+          "image": "raw/before-sunrise/alt-neu-sign.jpg",
+          "width": 3244,
+          "height": 3648,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 48.19972,
+            "lng": 16.35668,
+            "heading": null,
+            "source": "estimated",
+            "note": "唱片店门口街边，仰拍招牌"
+          },
+          "align": "match"
+        }
+      ],
+      "tipZh": "周六只在上午营业，所以第一站先来这里"
+    },
+    {
+      "id": "cafe-sperl",
+      "day": 1,
+      "order": 2,
+      "group": "west",
+      "filmOrder": null,
+      "place": "Café Sperl",
+      "placeZh": "斯佩尔咖啡馆",
+      "scene": "电话游戏",
+      "filmTime": null,
+      "lat": 48.1994,
+      "lng": 16.3617,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "spittelberggasse",
+      "day": 1,
+      "order": 3,
+      "group": "west",
+      "filmOrder": null,
+      "place": "Spittelberggasse",
+      "placeZh": "施皮特尔贝格小巷",
+      "scene": null,
+      "filmTime": null,
+      "lat": 48.203,
+      "lng": 16.354,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "maria-theresien-platz",
+      "day": 1,
+      "order": 4,
+      "group": "ring",
+      "filmOrder": null,
+      "place": "Maria-Theresien-Platz",
+      "placeZh": "玛利亚特蕾莎广场",
+      "scene": null,
+      "filmTime": null,
+      "lat": 48.204,
+      "lng": 16.3615,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "staatsoper",
+      "day": 1,
+      "order": 5,
+      "group": "ring",
+      "filmOrder": null,
+      "place": "Wiener Staatsoper",
+      "placeZh": "维也纳国立歌剧院",
+      "scene": null,
+      "filmTime": null,
+      "lat": 48.2031,
+      "lng": 16.3692,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "votivkirche",
+      "day": 1,
+      "order": 6,
+      "group": "ring",
+      "filmOrder": null,
+      "place": "Votivkirche",
+      "placeZh": "沃蒂夫教堂",
+      "scene": "电车经过",
+      "filmTime": null,
+      "lat": 48.2155,
+      "lng": 16.359,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "riesenrad",
+      "day": 1,
+      "order": 7,
+      "group": "ring",
+      "filmOrder": null,
+      "place": "Wiener Riesenrad",
+      "placeZh": "普拉特摩天轮",
+      "scene": "摩天轮",
+      "filmTime": null,
+      "lat": 48.2166,
+      "lng": 16.3958,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "albertina",
+      "day": 1,
+      "order": 4,
+      "group": "ring",
+      "filmOrder": 5,
+      "place": "Albertina",
+      "placeZh": "阿尔贝蒂娜露台",
+      "scene": "歌剧院对面的栏杆",
+      "filmTime": null,
+      "lat": 48.2045,
+      "lng": 16.3681,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": true,
+      "shots": [
+        {
+          "image": "raw/before-sunrise/albertina-terrace.jpg",
+          "width": 3196,
+          "height": 3596,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 48.2043,
+            "lng": 16.3683,
+            "heading": 150,
+            "source": "estimated",
+            "note": "阿尔贝蒂娜露台，朝东南看歌剧院"
+          },
+          "align": "loose"
+        }
+      ]
+    },
+    {
+      "id": "schoenbrunn",
+      "day": 2,
+      "order": 1,
+      "group": null,
+      "filmOrder": null,
+      "place": "Schloss Schönbrunn",
+      "placeZh": "美泉宫",
+      "scene": null,
+      "filmTime": null,
+      "lat": 48.1845,
+      "lng": 16.3122,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "hofburg",
+      "day": 2,
+      "order": 2,
+      "group": "innere-stadt",
+      "filmOrder": null,
+      "place": "Hofburg",
+      "placeZh": "霍夫堡宫",
+      "scene": null,
+      "filmTime": null,
+      "lat": 48.2085,
+      "lng": 16.3667,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "michaelerkirche",
+      "day": 2,
+      "order": 3,
+      "group": "innere-stadt",
+      "filmOrder": null,
+      "place": "Michaelerkirche",
+      "placeZh": "圣弥额尔堂",
+      "scene": null,
+      "filmTime": null,
+      "lat": 48.2087,
+      "lng": 16.3669,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "graben",
+      "day": 2,
+      "order": 4,
+      "group": "innere-stadt",
+      "filmOrder": null,
+      "place": "Graben · Pestsäule",
+      "placeZh": "格拉本大街",
+      "scene": null,
+      "filmTime": null,
+      "lat": 48.2087,
+      "lng": 16.37,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "stephansdom",
+      "day": 2,
+      "order": 5,
+      "group": "innere-stadt",
+      "filmOrder": null,
+      "place": "Stephansdom",
+      "placeZh": "圣史蒂芬大教堂",
+      "scene": null,
+      "filmTime": null,
+      "lat": 48.2085,
+      "lng": 16.3731,
+      "coordsVerified": false,
+      "isFilmingLocation": false,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "zollamtssteg",
+      "day": 1,
+      "order": 3,
+      "group": "innere-stadt",
+      "filmOrder": 1,
+      "place": "Zollamtssteg",
+      "placeZh": "绿桥",
+      "scene": "电影中相遇后经过的铁桥",
+      "filmTime": null,
+      "lat": 48.2073,
+      "lng": 16.3851,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": true,
+      "shots": [
+        {
+          "image": "raw/before-sunrise/zollamtssteg.jpg",
+          "width": 3244,
+          "height": 3648,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 48.2079,
+            "lng": 16.3844,
+            "heading": null,
+            "source": "estimated",
+            "note": "绿桥桥面（位置待核对）"
+          },
+          "align": "match"
+        }
+      ]
+    },
+    {
+      "id": "tram-1",
+      "day": 2,
+      "order": 7,
+      "group": "innere-stadt",
+      "filmOrder": null,
+      "place": "Straßenbahnlinie 1",
+      "placeZh": "1 路有轨电车",
+      "scene": "电车",
+      "filmTime": null,
+      "lat": 48.205,
+      "lng": 16.38,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "kleines-cafe",
+      "day": 1,
+      "order": 2,
+      "group": "innere-stadt",
+      "filmOrder": 4,
+      "place": "Kleines Café · Franziskanerplatz",
+      "placeZh": "小咖啡馆 · 方济各广场",
+      "scene": "算命",
+      "filmTime": null,
+      "lat": 48.2062,
+      "lng": 16.3751,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": true,
+      "shots": [
+        {
+          "image": "raw/before-sunrise/kleines-cafe.jpg",
+          "width": 3180,
+          "height": 3576,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 48.2063,
+            "lng": 16.3739,
+            "heading": 70,
+            "source": "estimated",
+            "note": "方济各广场西南角，朝东北看摩西喷泉和小咖啡馆"
+          },
+          "align": "match"
+        }
+      ],
+      "detour": true,
+      "walkNoteZh": "途经斯佩尔咖啡馆 · 艺术史博物馆 · 国立歌剧院 · 金色大厅 · 克恩顿大街"
+    },
+    {
+      "id": "maria-am-gestade",
+      "day": 2,
+      "order": 1,
+      "group": "innere-stadt",
+      "filmOrder": 3,
+      "place": "Maria am Gestade",
+      "placeZh": "河畔圣母教堂",
+      "scene": "教堂",
+      "filmTime": null,
+      "lat": 48.2127,
+      "lng": 16.3703,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": true,
+      "shots": [
+        {
+          "image": "raw/before-sunrise/maria-am-gestade-steps.jpg",
+          "width": 3244,
+          "height": 3648,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 48.21268,
+            "lng": 16.36985,
+            "heading": 70,
+            "source": "estimated",
+            "note": "教堂西南侧台阶下，朝上看侧门"
+          },
+          "align": "match"
+        },
+        {
+          "image": "raw/before-sunrise/maria-am-gestade-facade.jpg",
+          "width": 3244,
+          "height": 3648,
+          "splitRatio": 0.5,
+          "camera": {
+            "lat": 48.21282,
+            "lng": 16.36995,
+            "heading": 80,
+            "source": "estimated",
+            "note": "教堂西立面下方，仰拍"
+          },
+          "align": "match"
+        },
+        {
+          "image": "raw/before-sunrise/maria-am-gestade-interior.jpg",
+          "width": 3244,
+          "height": 3648,
+          "splitRatio": 0.5,
+          "scene": "电影内景 · Mariahilfer Kirche",
+          "camera": {
+            "lat": 48.21286,
+            "lng": 16.37059,
+            "heading": null,
+            "source": "estimated",
+            "note": "教堂内部"
+          },
+          "align": "loose"
+        }
+      ],
+      "detour": true,
+      "tipZh": "附近：史蒂芬大教堂 · 黑死病纪念柱 · 船锚钟"
+    },
+    {
+      "id": "obere-donaustrasse",
+      "day": null,
+      "order": null,
+      "group": null,
+      "filmOrder": null,
+      "place": "Obere Donaustraße 26",
+      "placeZh": "多瑙运河写诗地点",
+      "scene": "写诗",
+      "filmTime": null,
+      "lat": 48.216,
+      "lng": 16.3712,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "pressgasse",
+      "day": null,
+      "order": null,
+      "group": null,
+      "filmOrder": null,
+      "place": "Preßgasse 4",
+      "placeZh": "Preßgasse 4 地下室窗户",
+      "scene": "清晨的音乐",
+      "filmTime": null,
+      "lat": 48.1976,
+      "lng": 16.3628,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "schwarzenberg",
+      "day": null,
+      "order": null,
+      "group": null,
+      "filmOrder": null,
+      "place": "Schwarzenberggarten",
+      "placeZh": "施瓦岑贝格花园",
+      "scene": "草坪",
+      "filmTime": null,
+      "lat": 48.1987,
+      "lng": 16.3757,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    },
+    {
+      "id": "friedhof-der-namenlosen",
+      "day": null,
+      "order": null,
+      "group": null,
+      "filmOrder": null,
+      "place": "Friedhof der Namenlosen",
+      "placeZh": "无名者公墓",
+      "scene": "墓地",
+      "filmTime": null,
+      "lat": 48.159,
+      "lng": 16.505,
+      "coordsVerified": false,
+      "isFilmingLocation": true,
+      "visited": false,
+      "shots": []
+    }
+  ],
+  "montage": [
+    {
+      "image": "raw/vienna/03-blue-night.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1
+    },
+    {
+      "image": "raw/vienna/04-church-tall.jpg",
+      "width": 1440,
+      "height": 5119,
+      "panels": 1,
+      "pan": true,
+      "chapterEn": "After Sunrise",
+      "chapter": "日出之后",
+      "label": "卡尔教堂 · Karlskirche"
+    },
+    {
+      "image": "raw/vienna/05-belvedere.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "label": "美景宫 · Belvedere"
+    },
+    {
+      "image": "raw/vienna/07-pestsaeule.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "label": "黑死病纪念柱 · Pestsäule"
+    },
+    {
+      "image": "raw/vienna/08-palmenhaus.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "label": "美泉宫 · Palmenhaus"
+    },
+    {
+      "image": "raw/vienna/09-schoenbrunn.jpg",
+      "width": 1440,
+      "height": 2560,
+      "panels": 1,
+      "label": "美泉宫 · Schönbrunn"
+    }
+  ],
+  "easterEgg": {
+    "enabled": true,
+    "image": "raw/sisi/schoenbrunn-gloriette.jpg",
+    "width": 3029,
+    "height": 4038,
+    "splitRatio": 0.5,
+    "title": "Sissi · 1955",
+    "captionZh": "另一个维也纳"
+  },
+  "mapFeatures": [
+    {
+      "name": "Donaukanal",
+      "kind": "river",
+      "points": [
+        [
+          48.233,
+          16.36
+        ],
+        [
+          48.225,
+          16.364
+        ],
+        [
+          48.217,
+          16.37
+        ],
+        [
+          48.2135,
+          16.377
+        ],
+        [
+          48.211,
+          16.383
+        ],
+        [
+          48.208,
+          16.388
+        ],
+        [
+          48.204,
+          16.395
+        ],
+        [
+          48.199,
+          16.406
+        ]
+      ]
+    },
+    {
+      "name": "Wienfluss",
+      "kind": "river",
+      "points": [
+        [
+          48.201,
+          16.379
+        ],
+        [
+          48.2045,
+          16.3825
+        ],
+        [
+          48.2075,
+          16.3848
+        ],
+        [
+          48.2105,
+          16.3848
+        ]
+      ]
+    }
+  ],
+  "cover": {
+    "image": "raw/before-sunrise/alt-neu-triptych.jpg",
+    "width": 1179,
+    "height": 2096,
+    "kind": "topText",
+    "feedRows": [
+      260,
+      1832
+    ],
+    "feedBands": [
+      [
+        0,
+        200,
+        1179,
+        415
+      ],
+      [
+        30,
+        699,
+        1047,
+        698
+      ],
+      [
+        20,
+        1596,
+        760,
+        228
+      ]
+    ]
+  },
+  "routeBackdrop": {
+    "image": "raw/vienna/03-blue-night.jpg",
+    "width": 1440,
+    "height": 2560
+  },
+  "music": []
+}

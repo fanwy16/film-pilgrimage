@@ -1,0 +1,22 @@
+电影取景地巡礼 skill · 安装说明
+
+需要：Claude Code（终端版、VS Code 插件或 Claude 桌面 App 里的 Code 都可以），以及 Node.js 20 以上。
+
+方法一（最简单）
+  打开 Claude Code，把这个 zip 拖进去，说：
+  「把这个 zip 安装成我的个人 skill，解压到 ~/.claude/skills/」
+
+方法二（自己装）
+  1. 解压 zip，得到 film-pilgrimage 文件夹。
+  2. 把整个文件夹放到：
+       Mac：  ~/.claude/skills/film-pilgrimage
+       Windows：C:\Users\<你的用户名>\.claude\skills\film-pilgrimage
+     （.claude 是隐藏文件夹，Mac 上在访达里按 Cmd+Shift+. 显示）
+  3. 重启 Claude Code。输入 /film-pilgrimage，或者直接说「帮我做一个 XX 电影的取景地巡礼视频」。
+
+准备素材
+  - 对比图：每个取景地一张，上半是电影截图，下半是你拍的同角度照片。
+  - 行程笔记（可选，但很有用）：每天去了哪里、按什么顺序。
+  - 风景照、想用的音乐。
+
+模板里没有任何照片和音乐，examples/ 里的两份 JSON 只是格式参考。
