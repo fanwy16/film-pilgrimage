@@ -19,9 +19,9 @@ The engine is the [Remotion](https://www.remotion.dev) project in `template/`. `
   <img src="media/preview.gif" width="270" alt="Zollamtssteg: film still, photo revealed, both side by side, map following along">
 </p>
 
-![Frames from the video: opening, full route, Kleines Café pair, Zollamtssteg pair, route card, montage](media/frames.jpg)
+[![Frames from the video: opening, full route, Kleines Café pair, Zollamtssteg pair, route card, montage](media/frames.jpg)](https://wenyufan.vercel.app/files/projects/film-pilgrimage/before-sunrise.mp4)
 
-Full video (silent — the original soundtrack is copyrighted): [media/before-sunrise.mp4](media/before-sunrise.mp4)
+▶ **[Watch the full video](https://wenyufan.vercel.app/files/projects/film-pilgrimage/before-sunrise.mp4)** (1080p, silent — the original soundtrack is copyrighted)
 
 The example runs as-is: its data and photos ship inside `template/`.
 

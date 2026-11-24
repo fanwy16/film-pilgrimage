@@ -10,9 +10,9 @@ The video engine behind the film-pilgrimage skill: "movie still vs. my photo" at
   <img src="../media/preview.gif" width="240" alt="Zollamtssteg: film still, photo revealed, both side by side">
 </p>
 
-![Frames: opening, full route, Kleines Café, Zollamtssteg, route card, montage](../media/frames.jpg)
+[![Frames: opening, full route, Kleines Café, Zollamtssteg, route card, montage](../media/frames.jpg)](https://wenyufan.vercel.app/files/projects/film-pilgrimage/before-sunrise.mp4)
 
-▶ Full video (silent): [media/before-sunrise.mp4](../media/before-sunrise.mp4)
+▶ **[Watch the full video / 观看完整成片](https://wenyufan.vercel.app/files/projects/film-pilgrimage/before-sunrise.mp4)** (1080p, silent / 无声版)
 
 ```bash
 npm i

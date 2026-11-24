@@ -19,9 +19,9 @@
   <img src="media/preview.gif" width="270" alt="绿桥：原片 → 揭开实景 → 上下并排，地图跟着走">
 </p>
 
-![成片中的几帧：封面开场、全程路线、小咖啡馆对比、绿桥对比、路线卡、蒙太奇](media/frames.jpg)
+[![成片中的几帧：封面开场、全程路线、小咖啡馆对比、绿桥对比、路线卡、蒙太奇](media/frames.jpg)](https://wenyufan.vercel.app/files/projects/film-pilgrimage/before-sunrise.mp4)
 
-完整成片（无声版，原声音乐有版权所以去掉了）：[media/before-sunrise.mp4](media/before-sunrise.mp4)
+▶ **[观看完整成片](https://wenyufan.vercel.app/files/projects/film-pilgrimage/before-sunrise.mp4)**（1080p 无声版，原声音乐有版权所以去掉了）
 
 这个例子可以直接跑：`template/` 里自带它的数据和照片。
 
