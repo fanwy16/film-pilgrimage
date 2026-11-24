@@ -2,7 +2,7 @@
 
 **English** | [中文](README.zh-CN.md)
 
-A skill for [Claude Code](https://claude.com/claude-code) that turns your "movie still vs. my photo" shots from a film-location trip into a social-media-style vertical video (1080×1920), plus a 3:4 feed cover.
+An agent skill (Claude Code, Codex and other agents that read `SKILL.md`) that turns your "movie still vs. my photo" shots from a film-location trip into a social-media-style vertical video (1080×1920), plus a 3:4 feed cover.
 
 - At each location: a walking card with a mini map → the film still → your photo revealed → both shown side by side
 - An animated route map at the start, a route card at the end, and a scenery montage
@@ -31,9 +31,9 @@ cd template && npm i && npm run dev     # open BeforeSunrise in Remotion Studio
 
 ## Install
 
-You need Claude Code and Node.js 20+.
+You need an agent that supports skills (for example Claude Code) and Node.js 20+.
 
-Put the `film-pilgrimage` folder (this repo) in `~/.claude/skills/` (Windows: `C:\Users\<you>\.claude\skills\`) and restart Claude Code:
+Put the `film-pilgrimage` folder (this repo) where your agent loads skills. For Claude Code: `~/.claude/skills/` (Windows: `C:\Users\<you>\.claude\skills\`) and restart Claude Code:
 
 ```bash
 git clone https://github.com/fanwy16/film-pilgrimage ~/.claude/skills/film-pilgrimage
