@@ -17,7 +17,7 @@ const pascal = (id: string) => id.replace(/(^|-)(\w)/g, (_, __, c: string) => c.
 
 /**
  * One video per film in src/data/index.ts, plus one per day when the trip has several days
- * (e.g. SoundOfMusicDay1), plus the 3:4 小红书 feed cover (`npx remotion still Cover-<film>`).
+ * (e.g. SoundOfMusicDay1), plus the 3:4 social feed cover (`npx remotion still Cover-<film>`).
  */
 export const RemotionRoot: React.FC = () => (
   <>

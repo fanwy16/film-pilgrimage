@@ -1,11 +1,11 @@
 ---
 name: film-pilgrimage
-description: Make a 小红书-style vertical (1080×1920) film-pilgrimage video in Remotion — "film still vs. my photo" comparisons at each filming location, an animated walking-route map, scenery montage, route card, music aligned to cuts, and a 3:4 feed cover. Use when someone wants to turn trip photos of movie filming locations (电影取景地巡礼 / 打卡 / 对比图) into a video, or continue / add a film to an existing pilgrimage project.
+description: Make a social-media-style vertical (1080×1920) film-pilgrimage video in Remotion — "film still vs. my photo" comparisons at each filming location, an animated walking-route map, scenery montage, route card, music aligned to cuts, and a 3:4 feed cover. Use when someone wants to turn trip photos of movie filming locations (电影取景地巡礼 / 打卡 / 对比图) into a video, or continue / add a film to an existing pilgrimage project.
 ---
 
 # 电影取景地巡礼视频
 
-把「电影原片 vs 我拍的实景」做成小红书竖屏视频。引擎是一个现成的 Remotion 项目（`template/`），每部新片只需要：**一份 JSON 数据 + 一套风格 + 素材**，封面和开场再按片单独设计。
+把「电影原片 vs 我拍的实景」做成社交媒体风格的竖屏视频。引擎是一个现成的 Remotion 项目（`template/`），每部新片只需要：**一份 JSON 数据 + 一套风格 + 素材**，封面和开场再按片单独设计。
 
 做过的例子：《爱在黎明破晓前》（维也纳，两天，深色胶片风、黑胶开场）已经注册在 `template/` 里，带照片，可以直接渲染（没有音乐）；《音乐之声》（萨尔茨堡，纸色卷轴风，两段音乐对齐）只有 JSON，在 `template/examples/`。
 
@@ -69,7 +69,7 @@ npx remotion still Cover-<film-id> out/covers/<film>-cover.png --bundle-cache=fa
 - 封面左对齐、有层次，只有一个主标题（中文为主，英文斜体约 0.6 倍）。不要居中大字，不要裁掉用户选的照片。
 - 蒙太奇只用新照片，全屏，不加模糊背景，每张时间短。
 - 「途经」只写真正路过的地方；不编地名、不编营业时间。
-- 小红书安全区：顶部约 110px、底部约 104px 不放字。
+- 平台界面安全区：顶部约 110px、底部约 104px 会被界面遮住，不放字。
 
 更多踩过的坑（地图、曲线、渲染缓存、ffmpeg 限制等）见 [lessons.md](lessons.md)。动手改地图、时间线、对比段落之前先读一遍。
 

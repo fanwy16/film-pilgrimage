@@ -12,7 +12,7 @@ const ease = Easing.bezier(0.65, 0, 0.35, 1);
  * no blurred-background letterboxing). Images dissolve into each other.
  * - pan: a tall image (two photos stacked) holds on its top, slides to its bottom, holds.
  * - chapter: big film-font line ("Day 2", "After Sunrise") + Chinese line, top-left, layered like the cover.
- * - label: small place name, bottom-left, above the 小红书 UI safe area.
+ * - label: small place name, bottom-left, above the app UI safe area.
  */
 export const EndingMontage: React.FC<{ seg: Extract<Segment, { kind: "montage" }>; theme: FilmTheme }> = ({ seg, theme }) => {
   const frame = useCurrentFrame();
